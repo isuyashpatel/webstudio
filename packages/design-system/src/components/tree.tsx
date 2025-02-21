@@ -513,6 +513,9 @@ export const TreeNodeLabel = ({
           marginLeft: prefix ? theme.spacing[3] : 0,
           flexBasis: 0,
           flexGrow: 1,
+          "&:hover": {
+            color: "blue",
+          },
         }}
         {...props}
       >
